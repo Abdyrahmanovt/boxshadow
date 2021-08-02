@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+
+
+.background{
+  background-color: #2d6507;
+}
+body{
+  font-family: Padauk sans-serif;
+}
+
+
+
+.padding{
+  padding: 40px 30px;
+}
+.text-center {
+  font-family: Padauk sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 38px;
+  color: yellowgreen;
+}
+
+
+.box {
+  margin: 60px 0 0 100px;
+  width: 150px;
+  height: 150px;
+}
+
+.scale {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  padding: 15px;
+
+}
+
+.color {
+  width: 80px;
+  height: 40px;
+}
+
+.scale input {
+  margin: 20px 0;
+
+}
+.scale h2{
+  font-family: Padauk sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #eeff00;
+}
+
+.code {
+  margin-top: 160px;
+  padding: 4px 0 10px 20px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(198, 191, 50, 0.78);
+  color:#000;
+}
+.button-radio{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.inset__btn{
+  font-family: Padauk sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+.outset__btn{
+  font-family: Padauk sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+
+}
+
+.col-shadow{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.col-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.scale input[type=range]  {
+  border: 1px solid #ffc720;
+  height: 3px;
+  -webkit-appearance: none;
+  outline: none;
+  border-radius: 16px;
+  color: red;
+}
+
+  .pxValue{
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

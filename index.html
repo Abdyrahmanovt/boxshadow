@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<section class="background">
+    <div class="container">
+
+            <div class="row padding">
+                <p class="text-center"> Generator Box-Shadow</p>
+                <div class="col">
+                    <div class="scale">
+                        <h2>border-radius</h2>
+                        <div class="valuePx0 pxValue" >0px</div>
+                        <input type="range"  id="r1" value="0" max="50">
+
+                        <h2>Horizontal Shadow Length</h2>
+                        <div class="valuePx1 pxValue" >0px</div>
+                        <input type="range" id="offsetX"  value="0" min="-50" max="50">
+
+                        <h2>Vertical Shadow Length</h2>
+                        <div class="valuePx2 pxValue" >0px</div>
+                        <input type="range" id="offsetY" value="0" min="-50" max="50">
+
+                        <h2>Blur Radius</h2>
+                        <div class="valuePx3 pxValue" >0px</div>
+                        <input type="range" id="spread" value="0"  min="-50" max="50">
+
+                        <h2>Spread Radius</h2>
+                        <div class="valuePx4 pxValue" >0px</div>
+                        <input type="range" id="blur" value="0"  min="-50" max="50">
+
+                        <div class="col-shadow">
+                            <h2>color shadow</h2>
+                            <input type="color" class="color" id="color" value="#7c11f8">
+                        </div>
+                        <div class="col-box">
+                            <h2>color box</h2>
+                            <input type="color" class="color" id="box-color" value="7c11f8">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="square">
+                        <div class="box"></div>
+                        <div class="code"></div>
+                        <div class="button-radio">
+                            <div class="inset__btn">
+                                <label for="inset" class="inset__btn">inset</label>
+                                <input type="radio" id="inset" name="shadow" checked>
+                            </div>
+                            <div class="outset__btn">
+                                <label for="outset" class="outset__btn">outset</label>
+                                <input type="radio" id="outset" name="shadow">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+<script src="/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
